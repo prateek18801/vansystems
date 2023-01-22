@@ -1,0 +1,10 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5%;;
+}
