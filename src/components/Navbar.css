@@ -1,0 +1,41 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary);
+}
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    width: 100%;
+    margin: 0 6rem;
+    max-width: 1920px;
+}
+
+.navbar__left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.navbar__list-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    color: var(--white);
+    transition: all 0.2s ease;
+}
+
+.navbar__list-link:hover {
+    color: rgb(203, 203, 203);
+}
