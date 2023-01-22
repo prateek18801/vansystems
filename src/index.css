@@ -1,3 +1,10 @@
+:root {
+	--white: #fff;
+	--black: #02080D;
+	--primary: #041C32;
+	--secondary: #02080D;
+}
+
 * {
 	margin: 0;
 	padding: 0;
