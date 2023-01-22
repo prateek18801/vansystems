@@ -1,0 +1,47 @@
+.Contact {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary);
+    padding: 2rem 0;
+}
+
+.contact__container {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+    width: 100%;
+    margin: 0 6rem;
+    max-width: 1920px;
+}
+
+.contact__container-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__section-form {
+    width: 25%;
+}
+
+.contact__section-form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__section-form > form > button {
+    font-size: 0.9rem;
+    width: 40%;
+}
+
+.contact__section-map > p {
+    width: 550px;
+    margin-bottom: 1rem;
+}
+
+.gmap {
+    border: none;
+    border-radius: 5px;
+    width: 550px;
+    height: 350px;
+}
