@@ -1,0 +1,29 @@
+.Topnav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+}
+
+.topnav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: var(--white);
+    width: 100%;
+    margin: 0.5rem 6rem;
+    max-width: 1920px;
+}
+
+.topnav__right,
+.topnav__left {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.topnav__link {
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.2s ease;
+}
