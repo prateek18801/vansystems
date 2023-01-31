@@ -1,0 +1,22 @@
+.Scroll {
+    height: 2.7rem;
+    width: 2.7rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 1.7rem;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: var(--white);
+    cursor: pointer;
+    background-color: #00000099;
+    transition: all 0.2s ease;
+}
+
+.Scroll:hover {
+    transform: scale(1.05);
+}
+
+.Scroll:active {
+    transform: scale(0.95);
+}
