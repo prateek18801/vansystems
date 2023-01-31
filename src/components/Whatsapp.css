@@ -1,0 +1,25 @@
+.Whatsapp {
+    height: 3.5rem;
+    width: 3.5rem;
+    position: fixed;
+    bottom: 7rem;
+    right: 1.3rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    background-color: #31C24A;
+    transition: all 0.2s ease;
+}
+
+.Whatsapp:hover {
+    transform: scale(1.05);
+}
+
+.Whatsapp:active {
+    transform: scale(0.95);
+}
+
+.Whatsapp > img {
+    width: 2.2rem;
+}
